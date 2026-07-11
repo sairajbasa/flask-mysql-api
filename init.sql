@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS flaskapp_db;
+USE flaskapp_db;
+
+CREATE TABLE IF NOT EXISTS user (
+    userid INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(255) NOT NULL,
+    useremail VARCHAR(255) NOT NULL
+);
